@@ -1,0 +1,17 @@
+﻿<Window x:Class="SzamNegyesekProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzamNegyesekProjekt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="TableDisplay" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" TextAlignment="Center"/>
+
+        <Button Content="A" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="ButtonA_Click"/>
+        <Button Content="B" HorizontalAlignment="Right" VerticalAlignment="Top" Width="50" Height="50" Click="ButtonB_Click"/>
+        <Button Content="C" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="50" Height="50" Click="ButtonC_Click"/>
+        <Button Content="D" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="50" Height="50" Click="ButtonD_Click"/>
+    </Grid>
+</Window>

@@ -13,5 +13,6 @@
         <Button Content="B" HorizontalAlignment="Right" VerticalAlignment="Top" Width="50" Height="50" Click="ButtonB_Click"/>
         <Button Content="C" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="50" Height="50" Click="ButtonC_Click"/>
         <Button Content="D" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="50" Height="50" Click="ButtonD_Click"/>
+        <Button Content="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="50" Height="50" Click="ButtonNull_Click"/>
     </Grid>
 </Window>

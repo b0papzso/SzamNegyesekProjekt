@@ -62,5 +62,18 @@ namespace SzamNegyesekProjekt
         {
             IncreaseTableSection(1, 1);
         }
+        private void ButtonNull_Click(object sender, RoutedEventArgs e)
+        {
+            table[0, 0] = 0;
+            table[0, 2] = 0;
+            table[2, 0] = 0;
+            table[2, 1] = 0;
+            table[0, 1] = 0;
+            table[2, 2] = 0;
+            table[1, 0] = 0;
+            table[1, 1] = 0;
+            table[1, 2] = 0;
+            UpdateUI();
+        }
     }
 }
